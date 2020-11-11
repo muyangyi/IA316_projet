@@ -11,7 +11,7 @@
  / \     \
 2   5     9
 ```
-例如对上图中的二叉搜索树, 4和7的最近公共祖先是6, 4和5的最近公共祖先是4(一个点可以是自己的祖先)。 
+例如对上图中的二叉搜索树, 4和7的最近公共祖先是6, 4和5的最近公共祖先是4 (一个点可以是自己的祖先)。 
 
 The first line contains number of test case.
 
@@ -27,12 +27,14 @@ Output
 Given the sequence, please first build a BST, and find out the lowest common ancestor of given candidates.
 
 ## Input Format
-单个字符串s，含有**小写英文字母**、**数字**和**小括号**        
-字符串长度 0 <= length(s) <= 1000      
-可以确保括号是成对出现的
+每个测试样例由3行构成
+第一行是数组的长度
+第二行是所有
+第三行是
 
 ## Output Format
-处理后的字符串结果（正确翻转，不包含数字和小括号）
+对于给定的序列，先构建二叉搜索树，再寻找给定节点的最近公共祖先
+输出结果是一个整数
 
 ## Sample Input 1
 ```
