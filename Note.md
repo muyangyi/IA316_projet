@@ -11,7 +11,7 @@
  / \     \
 2   5     9
 ```
-例如对上图中的二叉搜索树, , , , 
+例如对上图中的二叉搜索树, 4和7的最近公共祖先是6, 4和5的最近公共祖先是4(一个点可以是自己的祖先)。 
 
 The first line contains number of test case.
 
@@ -26,18 +26,6 @@ the third line indicates the node candidates.
 Output
 Given the sequence, please first build a BST, and find out the lowest common ancestor of given candidates.
 
-Sample Input
-2
-9
-6 2 8 4 0 3 5 9 7
-2 8
-9
-6 2 8 4 0 3 5 9 7
-2 4
-Sample Output
-6
-2
-
 ## Input Format
 单个字符串s，含有**小写英文字母**、**数字**和**小括号**        
 字符串长度 0 <= length(s) <= 1000      
@@ -48,17 +36,21 @@ Sample Output
 
 ## Sample Input 1
 ```
-(abcd123ef)
+6
+6 4 2 7 5 9
+4 7
 ```
 ## Sample Output 1
 ```
-fedcba
+6
 ```
 ## Sample Input 2
 ```
-cy(n20(rpu)77eb)k
+6
+6 4 2 7 5 9
+4 5
 ```
 ## Sample Output 2
 ```
-cyberpunk
+4
 ```
