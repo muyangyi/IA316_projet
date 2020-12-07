@@ -1,12 +1,7 @@
 # My notes
 
-Output
-Sort and output the students' information according to their grades in decreasing order.
-
- If grades are the same, the student with smaller id should be output first.
-
 ## Description
-给出一系列未排序的学生信息（id和成绩），输出排序后的成绩和序号
+给出一系列未排序的学生信息（学号和成绩），输出排序后的结果    
 
 ## Input Format
 每个测试样例的第一行是序列的长度n, 1 <= n <= 10000     
@@ -32,6 +27,3 @@ Sort and output the students' information according to their grades in decreasin
 3 56
 2 44
 ```
-
-## HINT
-
